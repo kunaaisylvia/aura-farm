@@ -5,6 +5,8 @@ import Expertise from "../components/Expertise";
 import Projects from "../components/Projects";
 import EngineeringPhilosophy from "../components/EngineeringPhilosophy";
 import Experience from "../components/Experience";
+import Education from "../components/Education";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <EngineeringPhilosophy />
       <Projects />
       <Experience />
+      <Education />
+      <Contact />
     </main>
   );
 }
