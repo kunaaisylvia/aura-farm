@@ -2,17 +2,16 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Expertise from "../components/Expertise";
-import Projects from "../components/Projects";
 import EngineeringPhilosophy from "../components/EngineeringPhilosophy";
-import Experience from "../components/Experience";
+import TechStack from "../components/TechStack";
+import Projects from "../components/Projects";
 import Education from "../components/Education";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import TechStack from "../components/TechStack";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white pt-24">
+    <main className="bg-black text-white">
       <Navbar />
       <Hero />
       <About />
@@ -20,10 +19,9 @@ export default function Home() {
       <EngineeringPhilosophy />
       <TechStack />
       <Projects />
-      <Experience />
       <Education />
       <Contact />
-        <Footer />
+      <Footer />
     </main>
   );
 }
