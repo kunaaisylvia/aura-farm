@@ -2,35 +2,44 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen py-20 bg-zinc-950 text-white flex items-center justify-center px-8"
+      className="min-h-screen bg-zinc-950 text-white flex items-center px-8 py-32"
     >
-      <div className="max-w-3xl">
-        <p className="uppercase tracking-[0.4em] text-yellow-500 mb-4">
-          About Me
+      <div className="max-w-5xl mx-auto">
+
+        <p className="uppercase tracking-[0.45em] text-yellow-500 text-sm mb-6">
+          About
         </p>
 
-        <h2 className="text-5xl font-bold mb-8">
-          Engineering intelligent solutions,
+        <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-12">
+          Building software that is
+          <span className="text-yellow-500"> intelligent</span>,
           <br />
-          one product at a time.
+          scalable, and built to last.
         </h2>
 
-        <p className="text-lg leading-9 text-zinc-300">
-          I'm Sylvia Kunaai, an AI Engineer and Software Engineer passionate
-          about building products that solve real-world problems. My work spans
-          Artificial Intelligence, backend systems, blockchain technology, and
-          modern web development.
-        </p>
+        <div className="space-y-8 text-xl leading-9 text-zinc-400 max-w-3xl">
 
-        <p className="text-lg leading-9 text-zinc-300 mt-6">
-          I enjoy transforming ideas into scalable software—from intelligent AI
-          assistants to data-driven platforms—while focusing on performance,
-          security, and user experience.
-        </p>
+          <p>
+            I'm <span className="text-white font-semibold">Sylvia Kunaai</span>,
+            a Software Engineer passionate about creating technology that solves
+            real-world problems. My work combines artificial intelligence,
+            blockchain, backend engineering, and modern web development to build
+            products that are both practical and impactful.
+          </p>
 
-        <p className="text-lg leading-9 text-zinc-300 mt-6">
-          My goal is simple: build technology that people genuinely enjoy using.
-        </p>
+          <p>
+            Whether I'm developing AI assistants, designing scalable backend
+            systems, or building full-stack applications, I focus on clean
+            architecture, performance, and thoughtful user experiences.
+          </p>
+
+          <p>
+            I believe great software isn't just functional—it's reliable,
+            intuitive, and built with purpose.
+          </p>
+
+        </div>
+
       </div>
     </section>
   );

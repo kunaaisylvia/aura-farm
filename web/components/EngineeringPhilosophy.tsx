@@ -9,35 +9,39 @@ export default function EngineeringPhilosophy() {
           Engineering Philosophy
         </p>
 
-        <h2 className="text-5xl font-bold mb-12">
-          Technology should solve problems,
+        <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-10">
+          Build less.
           <br />
-          not create them.
+          Build better.
         </h2>
 
-        <p className="text-xl text-zinc-300 leading-9 mb-8">
-          I believe great software isn't defined by the number of features it
-          has, but by the value it creates for the people who use it.
+        <p className="text-xl text-zinc-400 leading-9 max-w-3xl mx-auto mb-8">
+          I believe the best technology is almost invisible. It solves real
+          problems, scales with confidence, and feels intuitive to the people
+          who depend on it every day.
         </p>
 
-        <p className="text-xl text-zinc-300 leading-9 mb-8">
-          Whether I'm building AI systems, backend platforms, blockchain
-          solutions, or modern web applications, my focus remains the same:
-          create technology that is intelligent, reliable, and genuinely useful.
+        <p className="text-xl text-zinc-400 leading-9 max-w-3xl mx-auto">
+          Whether developing AI systems, backend infrastructure, or modern web
+          applications, I prioritize thoughtful architecture, long-term
+          maintainability, and measurable impact over unnecessary complexity.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-4 mt-12">
-          <span className="border border-yellow-500 rounded-full px-6 py-3">
-            Simplicity
-          </span>
-
-          <span className="border border-yellow-500 rounded-full px-6 py-3">
-            Scalability
-          </span>
-
-          <span className="border border-yellow-500 rounded-full px-6 py-3">
-            Impact
-          </span>
+        <div className="flex flex-wrap justify-center gap-4 mt-14">
+          {[
+            "Simplicity",
+            "Performance",
+            "Scalability",
+            "Reliability",
+            "Impact",
+          ].map((value) => (
+            <span
+              key={value}
+              className="rounded-full border border-zinc-700 px-6 py-3 text-sm text-zinc-300 hover:border-yellow-500 hover:text-yellow-500 transition"
+            >
+              {value}
+            </span>
+          ))}
         </div>
       </div>
     </section>

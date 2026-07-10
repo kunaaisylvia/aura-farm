@@ -2,7 +2,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaDownload,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -22,7 +21,7 @@ export default function Contact() {
         </h2>
 
         <p className="text-zinc-400 text-lg md:text-xl leading-8 max-w-2xl mx-auto">
-          Whether you're hiring, collaborating, or exploring an AI idea,
+          Whether you're building software, exploring AI, or developing blockchain solutions,
           I'd love to hear from you.
         </p>
 
@@ -78,16 +77,6 @@ export default function Contact() {
           </a>
 
         </div>
-
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 mt-16 bg-yellow-500 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-400 transition-all duration-300"
-        >
-          <FaDownload />
-          Download Resume
-        </a>
 
       </div>
     </section>
